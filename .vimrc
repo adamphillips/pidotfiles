@@ -78,3 +78,9 @@ let g:indent_guides_guide_size=1
 let g:indent_guides_auto_colors = 0
 let g:indent_guides_enable_on_vim_startup = 1
 
+" Useful aliases
+
+nnoremap <leader>b :buffer
+nnoremap <leader>m :buffers<CR>
+nnoremap <leader>n :E<CR>
+let g:netrw_liststyle=3
